@@ -1,0 +1,17 @@
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\bin\Debug\net6.0\StajProjesiAPI.Infrastructure.deps.json
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\bin\Debug\net6.0\StajProjesiAPI.Infrastructure.dll
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\bin\Debug\net6.0\StajProjesiAPI.Infrastructure.pdb
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\bin\Debug\net6.0\StajProjesiAPI.Application.dll
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\bin\Debug\net6.0\StajProjesiAPI.Domain.dll
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\bin\Debug\net6.0\StajProjesiAPI.Application.pdb
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\bin\Debug\net6.0\StajProjesiAPI.Domain.pdb
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\obj\Debug\net6.0\StajProjesiAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\obj\Debug\net6.0\StajProjesiAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\obj\Debug\net6.0\StajProjesiAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\obj\Debug\net6.0\StajProjesiAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\obj\Debug\net6.0\StajProjesiAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\obj\Debug\net6.0\StajProjesiAPI.Infrastructure.csproj.CopyComplete
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\obj\Debug\net6.0\StajProjesiAPI.Infrastructure.dll
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\obj\Debug\net6.0\refint\StajProjesiAPI.Infrastructure.dll
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\obj\Debug\net6.0\StajProjesiAPI.Infrastructure.pdb
+C:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Infrastructure\StajProjesiAPI.Infrastructure\obj\Debug\net6.0\ref\StajProjesiAPI.Infrastructure.dll

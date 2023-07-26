@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj",
+        "projectName": "StajProjesiAPI.Application",
+        "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fcopkayaoglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj",
+        "projectName": "StajProjesiAPI.Domain",
+        "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fcopkayaoglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj",
+        "projectName": "StajProjesiAPI.Infrastructure",
+        "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Infrastructure\\StajProjesiAPI.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fcopkayaoglu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
