@@ -1,13 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore.Query;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using StajProjesiAPI.Application.BaseRepository;
 using StajProjesiAPI.Domain.Entities.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 using StajProjesiAPI.Persistence.Contexts;
 
 namespace StajProjesiAPI.Persistence.Repositories.BaseRepository
@@ -34,7 +28,7 @@ namespace StajProjesiAPI.Persistence.Repositories.BaseRepository
             return await _context.Set<TEntity>().FindAsync(id);
         }
 
-        public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null)
+        public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> filter = null, Expression<Func<TEntity, object>> include = null)
         {
             
             IQueryable<TEntity> queryable = _context.Set<TEntity>();
@@ -45,7 +39,7 @@ namespace StajProjesiAPI.Persistence.Repositories.BaseRepository
             }
             if (include != null)
             {
-                queryable = include(queryable);
+                queryable = queryable.Include(include);
             }
             return await queryable.AsNoTracking().SingleOrDefaultAsync();
         }

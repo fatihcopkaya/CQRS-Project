@@ -1,11 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using StajProjesiAPI.Application.Abstract.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace StajProjesiAPI.Application.Features.Queries
 {
@@ -25,8 +21,7 @@ namespace StajProjesiAPI.Application.Features.Queries
             var row = await _customerService.GetCustomerById(request.Id);
             var response = new GetCustomerByIdQueryResponse()
             {
-                Id = row.Data.Id,
-                Name = row.Data.Name
+                Customer = row.Data
 
             };
             return response;

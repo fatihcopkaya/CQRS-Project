@@ -3,11 +3,7 @@ using MediatR;
 using StajProjesiAPI.Application.Abstract.Services;
 using StajProjesiAPI.Domain.Dtos.Customer;
 using StajProjesiAPI.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace StajProjesiAPI.Application.Features.Commands
 {

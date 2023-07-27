@@ -1,11 +1,8 @@
-﻿using AutoMapper;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using StajProjesiAPI.Application.Abstract.Services;
 using StajProjesiAPI.Application.Features.Commands;
 using StajProjesiAPI.Application.Features.Queries;
-using StajProjesiAPI.Domain.Dtos.Customer;
-using StajProjesiAPI.Domain.Entities;
+
 
 namespace StajProjesi.API.API.Controllers
 {
@@ -38,6 +35,13 @@ namespace StajProjesi.API.API.Controllers
         public async Task<IActionResult> CustomerList([FromQuery]GetAllCustomerQueryRequest getAllCustomerQueryRequest)
         {
             var response = await _mediator.Send(getAllCustomerQueryRequest);
+            return Ok(response);
+
+        }
+        [HttpPost("UpdateCustomer")]
+        public async Task<IActionResult> UpdateCustomer([FromQuery]UpdateCustomerCommandRequest updateCustomerCommandRequest)
+        {
+            var response = await _mediator.Send(updateCustomerCommandRequest);
             return Ok(response);
 
         }

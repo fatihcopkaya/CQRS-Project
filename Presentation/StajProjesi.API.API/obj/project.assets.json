@@ -1095,7 +1095,6 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
-          "Microsoft.EntityFrameworkCore": "6.0.9",
           "StajProjesiAPI.Domain": "1.0.0"
         },
         "compile": {
@@ -3005,11 +3004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Presentation\\StajProjesi.API.API\\StajProjesi.API.API.csproj",
+      "projectUniqueName": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Presentation\\StajProjesi.API.API\\StajProjesi.API.API.csproj",
       "projectName": "StajProjesi.API.API",
-      "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Presentation\\StajProjesi.API.API\\StajProjesi.API.API.csproj",
+      "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Presentation\\StajProjesi.API.API\\StajProjesi.API.API.csproj",
       "packagesPath": "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Presentation\\StajProjesi.API.API\\obj\\",
+      "outputPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Presentation\\StajProjesi.API.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3031,14 +3030,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj"
+            "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj"
             },
-            "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj"
+            "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj"
             },
-            "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Infrastructure\\StajProjesiAPI.Persistence\\StajProjesiAPI.Persistence.csproj": {
-              "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\StajProjesiAPI\\Infrastructure\\StajProjesiAPI.Persistence\\StajProjesiAPI.Persistence.csproj"
+            "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Persistence\\StajProjesiAPI.Persistence.csproj": {
+              "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Persistence\\StajProjesiAPI.Persistence.csproj"
             }
           }
         }

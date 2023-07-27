@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StajProjesiAPI.Domain
-build_property.ProjectDir = c:\Users\fcopkayaoglu\source\repos\StajProjesiAPI\Core\StajProjesiAPI.Domain\
+build_property.ProjectDir = C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Core\StajProjesiAPI.Domain\
