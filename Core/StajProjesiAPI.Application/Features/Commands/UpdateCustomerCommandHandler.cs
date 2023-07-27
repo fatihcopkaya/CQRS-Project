@@ -22,12 +22,14 @@ namespace StajProjesiAPI.Application.Features.Commands
 
         public async Task<UpdateCustomerCommandResponse> Handle(UpdateCustomerCommandRequest request, CancellationToken cancellationToken)
         {
+            
             try 
             {
-                
                 var getCustomerQuery = new GetCustomerByIdQueryRequest() { Id = request.Id };
                 var customerQueryResponse = await _mediator.Send(getCustomerQuery);
-                if (customerQueryResponse != null)
+
+
+                if (customerQueryResponse.Customer != null)
                 {
                     customerQueryResponse.Customer.Name = request.Name;
                     customerQueryResponse.Customer.Id = request.Id;
