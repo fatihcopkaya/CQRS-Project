@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P0PQh9nvFvIFaWyobPFXjDZrs8ZVzj4IH9E4PwG9LzNPjNvkdaIhRuuKd5K72d694rdkb+2wKS6/Rlraxy3OhQ==",
+  "dgSpecHash": "IS+IX+5Fg55Iii+Y+jl6W8GasWF18aGziufNdKBKR2P01k28T2WV/86jlr3Z4jBUiwGfTrSzStq8D3shTL9yTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,12 @@
     "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.8.0\\microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\microsoft.identitymodel.logging\\6.8.0\\microsoft.identitymodel.logging.6.8.0.nupkg.sha512",
+    "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

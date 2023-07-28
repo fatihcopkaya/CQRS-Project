@@ -1121,7 +1121,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "StajProjesiAPI.Application": "1.0.0"
+          "Microsoft.IdentityModel.Tokens": "6.8.0",
+          "StajProjesiAPI.Application": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "6.8.0"
         },
         "compile": {
           "bin/placeholder/StajProjesiAPI.Infrastructure.dll": {}

@@ -5,19 +5,24 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D3D1A011-1072-49B8-8805-7612E635B6B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StajProjesiAPI.Domain", "Core\StajProjesiAPI.Domain\StajProjesiAPI.Domain.csproj", "{F2D0ED2D-64FE-481C-AE48-B51BF4848404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StajProjesiAPI.Domain", "Core\StajProjesiAPI.Domain\StajProjesiAPI.Domain.csproj", "{F2D0ED2D-64FE-481C-AE48-B51BF4848404}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StajProjesiAPI.Application", "Core\StajProjesiAPI.Application\StajProjesiAPI.Application.csproj", "{1B930A2B-EAE1-4374-A11C-698FD35FCD9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StajProjesiAPI.Application", "Core\StajProjesiAPI.Application\StajProjesiAPI.Application.csproj", "{1B930A2B-EAE1-4374-A11C-698FD35FCD9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1F4738F1-9F80-4755-8535-6448019E703C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StajProjesiAPI.Infrastructure", "Infrastructure\StajProjesiAPI.Infrastructure\StajProjesiAPI.Infrastructure.csproj", "{0D2FCFDF-182D-487E-AF74-F14F7F700B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StajProjesiAPI.Infrastructure", "Infrastructure\StajProjesiAPI.Infrastructure\StajProjesiAPI.Infrastructure.csproj", "{0D2FCFDF-182D-487E-AF74-F14F7F700B5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StajProjesiAPI.Persistence", "Infrastructure\StajProjesiAPI.Persistence\StajProjesiAPI.Persistence.csproj", "{55141628-569B-4432-A370-0359D106E7DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StajProjesiAPI.Persistence", "Infrastructure\StajProjesiAPI.Persistence\StajProjesiAPI.Persistence.csproj", "{55141628-569B-4432-A370-0359D106E7DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A20449E4-2D16-4E9F-BC69-B5DDB47F9FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StajProjesi.API.API", "Presentation\StajProjesi.API.API\StajProjesi.API.API.csproj", "{68DD3B00-C30C-461F-9CAD-1CF24889851A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StajProjesi.API.API", "Presentation\StajProjesi.API.API\StajProjesi.API.API.csproj", "{68DD3B00-C30C-461F-9CAD-1CF24889851A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{149BD9AB-B090-4AD7-B8EA-74C60D8A2F59}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\My Received Files\.gitignore = ..\..\..\Documents\My Received Files\.gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
