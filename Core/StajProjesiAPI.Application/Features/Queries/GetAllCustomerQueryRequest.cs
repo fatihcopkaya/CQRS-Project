@@ -2,7 +2,7 @@
 
 namespace StajProjesiAPI.Application.Features.Queries
 {
-    public class GetAllCustomerQueryRequest : IRequest<GetAllCustomerQueryResponse>
+    public class GetAppUserByEmailRequest : IRequest<GetAllCustomerQueryResponse>
     {
         
     }

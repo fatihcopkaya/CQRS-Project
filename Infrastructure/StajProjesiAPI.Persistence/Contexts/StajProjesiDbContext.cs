@@ -13,6 +13,7 @@ namespace StajProjesiAPI.Persistence.Contexts
         public StajProjesiDbContext(DbContextOptions options) : base(options)
         {
         }
+        public DbSet<AppUser>AppUsers { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Customer> Customers { get; set; }

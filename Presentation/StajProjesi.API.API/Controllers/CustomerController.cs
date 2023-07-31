@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StajProjesiAPI.Application.Features.Commands;
 using StajProjesiAPI.Application.Features.Queries;
@@ -24,6 +25,7 @@ namespace StajProjesi.API.API.Controllers
             return Ok(response);
 
         }
+        [Authorize(Roles ="User")]
         [HttpGet("GetCustomerById")]
         public async Task<IActionResult>GetCustomerById([FromQuery]GetCustomerByIdQueryRequest getCustomerByIdQueryRequest)
         {
@@ -32,7 +34,7 @@ namespace StajProjesi.API.API.Controllers
 
         }
         [HttpGet("GetCustomerList")]
-        public async Task<IActionResult> CustomerList([FromQuery]GetAllCustomerQueryRequest getAllCustomerQueryRequest)
+        public async Task<IActionResult> CustomerList([FromQuery]GetAppUserByEmailRequest getAllCustomerQueryRequest)
         {
             var response = await _mediator.Send(getAllCustomerQueryRequest);
             return Ok(response);

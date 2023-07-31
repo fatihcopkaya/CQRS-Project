@@ -36,3 +36,5 @@ C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Infrastructure\StajProjesiAPI.Pe
 C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Infrastructure\StajProjesiAPI.Persistence\obj\Debug\net6.0\StajProjesiAPI.Persistence.pdb
 C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Infrastructure\StajProjesiAPI.Persistence\obj\Debug\net6.0\StajProjesiAPI.Persistence.genruntimeconfig.cache
 C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Infrastructure\StajProjesiAPI.Persistence\obj\Debug\net6.0\ref\StajProjesiAPI.Persistence.dll
+C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Infrastructure\StajProjesiAPI.Persistence\bin\Debug\net6.0\StajProjesiAPI.Infrastructure.dll
+C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Infrastructure\StajProjesiAPI.Persistence\bin\Debug\net6.0\StajProjesiAPI.Infrastructure.pdb

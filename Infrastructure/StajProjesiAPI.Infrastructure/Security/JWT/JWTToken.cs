@@ -1,4 +1,5 @@
 ﻿using Microsoft.IdentityModel.Tokens;
+using StajProjesiAPI.Application.Abstract.Services;
 using StajProjesiAPI.Application.ViewModel;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -9,9 +10,9 @@ using System.Text;
 
 namespace StajProjesiAPI.Infrastructure.Security.JWT
 {
-    public class JWTToken
+    public class JWTToken : JWTTokenService
     {
-        public static TokenVM GetToken(string email,string role)
+        public  TokenVM GetToken(string email,string role)
         {
             var authClaims = new List<Claim> 
             {
@@ -27,23 +28,23 @@ namespace StajProjesiAPI.Infrastructure.Security.JWT
             (
                    issuer:"https://localhost:7272/",
                    audience: "https://localhost:7272/",
-                   expires: DateTime.Now.AddHours(24),
+                   expires: DateTime.UtcNow.AddDays(1),
                    claims: authClaims,
                    signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
 
             );
             JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
             tokenVM.AccessToken = tokenHandler.WriteToken(token);
-            tokenVM.Expiration = DateTime.Now.AddHours(24);
+            tokenVM.Expiration = DateTime.UtcNow.AddDays(1);
 
             tokenVM.RefreshToken = CreateRefreshToken();
-            tokenVM.Expiration = DateTime.Now.AddDays(7);
+            tokenVM.RefreshTokenEndDate = DateTime.Now.AddDays(7);
             return tokenVM;
 
             
 
         }
-        public static string CreateRefreshToken()
+        public  string CreateRefreshToken()
         {
             byte[] number = new byte[32];
             using (RandomNumberGenerator random = RandomNumberGenerator.Create())

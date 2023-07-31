@@ -20,6 +20,9 @@ namespace StajProjesiAPI.Persistence
             services.AddDbContext<StajProjesiDbContext>(options => options.UseSqlServer(Configuration.ConnectionString));
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<ICustomerService, CustomerManager>();
+            services.AddScoped<IAppUserRepository, AppUserRepository>();
+            services.AddScoped<IAppUserService, AppUserManager>();
+            services.AddHttpContextAccessor();
 
             services.AddAutoMapper(typeof(CustomerProfile));
         }

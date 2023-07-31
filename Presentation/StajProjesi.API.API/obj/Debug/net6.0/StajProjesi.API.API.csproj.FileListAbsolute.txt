@@ -156,3 +156,5 @@ C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Presentation\StajProjesi.API.API
 C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Presentation\StajProjesi.API.API\obj\Debug\net6.0\StajProjesi.API.API.pdb
 C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Presentation\StajProjesi.API.API\obj\Debug\net6.0\StajProjesi.API.API.genruntimeconfig.cache
 C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Presentation\StajProjesi.API.API\obj\Debug\net6.0\ref\StajProjesi.API.API.dll
+C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Presentation\StajProjesi.API.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Presentation\StajProjesi.API.API\bin\Debug\net6.0\Newtonsoft.Json.dll
