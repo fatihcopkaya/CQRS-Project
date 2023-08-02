@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace StajProjesiAPI.Application.Contacts
 {
 
-    public static class Messages
+    public  class Messages
     {
         private static string addMessage = "Your save is successful.";
         private static string deleteMessage = "Your deletion is successful.";

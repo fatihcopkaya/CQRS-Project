@@ -26,19 +26,17 @@ namespace StajProjesiAPI.Application.Features.Commands
 
         public async Task<CreateAppUserCommandResponse> Handle(CreateAppUserCommandRequest request, CancellationToken cancellationToken)
         {
+            var QueryAppUser = new GetAppUserByEmailQueryRequest() { Email = request.CreateAppUserDTO.Email };
+            var QueryAppUserResponse = await _mediator.Send(QueryAppUser);
+            if (QueryAppUserResponse.AppUser != null)
+            {
+                return new CreateAppUserCommandResponse { IsSuccess = false }; //Email kullanımda
+            }
+            var appUserDto = request.CreateAppUserDTO;
+            _hashingHelperService.CreatePasswordHash(appUserDto.Password, out var passwordHash, out var passwordSalt);
+            var _mappedAppUser = _mapper.Map<CreateAppUserDto, AppUser>(appUserDto);
             try
             {
-
-                var QueryAppUser = new GetAppUserByEmailQueryRequest() { Email = request.CreateAppUserDTO.Email };
-                var QueryAppUserResponse = await _mediator.Send(QueryAppUser);
-                if (QueryAppUserResponse.AppUser != null)
-                {
-                    return new CreateAppUserCommandResponse { IsSuccess = false }; //Email kullanımda
-                }
-
-                var appUserDto = request.CreateAppUserDTO;
-                _hashingHelperService.CreatePasswordHash(appUserDto.Password, out var passwordHash, out var passwordSalt);
-                var _mappedAppUser = _mapper.Map<CreateAppUserDto, AppUser>(appUserDto);
                 _mappedAppUser.PasswordHash = passwordHash;
                 _mappedAppUser.PasswordSalt = passwordSalt;
                 _mappedAppUser.CreatedDate = DateTime.UtcNow;

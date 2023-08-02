@@ -25,12 +25,13 @@ namespace StajProjesiAPI.Application.Features.Login
 
         public async Task<AppUserLoginCommandResponse> Handle(AppUserLoginCommandRequest request, CancellationToken cancellationToken)
         {
+            var appUserDto = request.AppUserLoginDto;
+            var AppUserControlQuery = new AppUserLoginControlQueryRequest() { AppUserLoginDto = appUserDto };
+            var AppUserControlResponse = await _mediator.Send(AppUserControlQuery);
+            var appUserControl = AppUserControlResponse.AppUser;
             try 
             {
-                var appUserDto = request.AppUserLoginDto;
-                var AppUserControlQuery = new AppUserLoginControlQueryRequest() { AppUserLoginDto = appUserDto };
-                var AppUserControlResponse = await _mediator.Send(AppUserControlQuery);
-                var appUserControl = AppUserControlResponse.AppUser;
+                
                 if(appUserControl != null) 
                 {
 

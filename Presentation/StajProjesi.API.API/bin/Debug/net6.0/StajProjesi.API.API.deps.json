@@ -762,6 +762,7 @@
         "dependencies": {
           "AutoMapper": "12.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
+          "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
           "Microsoft.Extensions.Configuration": "6.0.0",

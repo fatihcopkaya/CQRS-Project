@@ -22,5 +22,13 @@ namespace StajProjesi.API.API.Controllers
             return Ok(response);
 
         }
+        [HttpPost("UpdateAppUser")]
+        public async Task<IActionResult> UpdateAppUser(UpdateAppUserCommandRequest updateAppUserCommandRequest)
+        {
+            UpdateAppUserCommandResponse response = await _mediator.Send(updateAppUserCommandRequest);
+            return Ok(response);
+            
+
+        }
     }
 }

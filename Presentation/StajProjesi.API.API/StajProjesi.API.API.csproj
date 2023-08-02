@@ -24,4 +24,8 @@
     <ProjectReference Include="..\..\Infrastructure\StajProjesiAPI.Persistence\StajProjesiAPI.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="View\" />
+  </ItemGroup>
+
 </Project>

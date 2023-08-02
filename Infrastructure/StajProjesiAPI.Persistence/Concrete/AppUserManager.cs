@@ -58,6 +58,18 @@ namespace StajProjesiAPI.Persistence.Concrete
            
         }
 
+        public async Task<IDataResult<AppUser>> GetAuthenticatedUser()
+        {
+            string usermail = _httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(x=>x.Type == ClaimTypes.Email)?.Value;
+            var userId = (await _userRepository.GetListAsync()).Where(x=>x.Email == usermail).Select(x=>x.Id).FirstOrDefault();
+            var row = await _userRepository.GetFirstOrDefaultAsync(x=>x.Id==userId);
+            if(row != null)
+            {
+                return new SuccessDataResult<AppUser>(row);
+            }
+            return new SuccessDataResult<AppUser>(Messages.NoRecordMessage);
+        }
+
         public async Task<IDataResult<AppUser>> GetByEmailAsync(string appUserEmail)
         {
             var row = await _userRepository.GetFirstOrDefaultAsync(x=>x.Email == appUserEmail);

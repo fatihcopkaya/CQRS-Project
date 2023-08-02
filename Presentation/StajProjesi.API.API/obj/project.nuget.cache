@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i1R5/83A5j+7Mkfcuu3Rl0llguXY0F12lJx2lxcvUyZYVsoJn9gNg8sQakR3XmlooC8rKxo1MhHfdKi6vwhh+Q==",
+  "dgSpecHash": "kE7WlDheCpM+SrBKenz0fEZQ7aI7TSJO5pvGOAqGqcztfR1/QINSqZD5sWEa1tDp7z7ARjK3TQ9o4EKSYgYlnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Presentation\\StajProjesi.API.API\\StajProjesi.API.API.csproj",
+  "projectFilePath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Presentation\\StajProjesi.API.API\\StajProjesi.API.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

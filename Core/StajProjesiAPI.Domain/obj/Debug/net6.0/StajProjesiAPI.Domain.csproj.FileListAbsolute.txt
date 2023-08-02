@@ -22,3 +22,15 @@ C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Core\StajProjesiAPI.Domain\obj\D
 C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\refint\StajProjesiAPI.Domain.dll
 C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\StajProjesiAPI.Domain.pdb
 C:\Users\fcopkayaoglu\source\repos\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\ref\StajProjesiAPI.Domain.dll
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\bin\Debug\net6.0\StajProjesiAPI.Domain.deps.json
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\bin\Debug\net6.0\StajProjesiAPI.Domain.dll
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\bin\Debug\net6.0\StajProjesiAPI.Domain.pdb
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\StajProjesiAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\StajProjesiAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\StajProjesiAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\StajProjesiAPI.Domain.AssemblyInfo.cs
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\StajProjesiAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\StajProjesiAPI.Domain.dll
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\refint\StajProjesiAPI.Domain.dll
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\StajProjesiAPI.Domain.pdb
+C:\Users\fcopkayaoglu\Documents\GitHub\CQRS-Project\Core\StajProjesiAPI.Domain\obj\Debug\net6.0\ref\StajProjesiAPI.Domain.dll

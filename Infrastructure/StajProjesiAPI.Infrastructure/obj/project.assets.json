@@ -657,11 +657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj",
       "projectName": "StajProjesiAPI.Infrastructure",
-      "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -682,8 +682,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj"
+            "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj"
             }
           }
         }

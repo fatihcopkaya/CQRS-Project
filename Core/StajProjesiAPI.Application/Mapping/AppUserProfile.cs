@@ -14,6 +14,7 @@ namespace StajProjesiAPI.Application.Mapping
         public AppUserProfile()
         {
             CreateMap<CreateAppUserDto, AppUser>().ReverseMap();
+            CreateMap<UpdateAppUserDto, AppUser>().ReverseMap();
         }
 
         

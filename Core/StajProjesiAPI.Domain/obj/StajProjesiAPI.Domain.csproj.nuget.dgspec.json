@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj": {}
+    "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj": {
+    "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj",
         "projectName": "StajProjesiAPI.Domain",
-        "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj",
+        "projectPath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

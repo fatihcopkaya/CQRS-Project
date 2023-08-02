@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d/VoUgmawZ7Ra37GSwfm9sgtgTreFYxh2TQHLxSnNN3jzoVELTv5IQuil8hEkKbd9SRmm/mdi72otJnKQCo3zQ==",
+  "dgSpecHash": "O0ZPxXzCG5jzE8pFOaXe1wYGfnXMs8WsUQt7T5IdtyaW8VE57s9qT4KCXwNzM6iD6cYekIpeZ7LTCYvWkBOCWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj",
+  "projectFilePath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Core\\StajProjesiAPI.Domain\\StajProjesiAPI.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

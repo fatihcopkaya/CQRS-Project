@@ -20,5 +20,6 @@ namespace StajProjesiAPI.Application.Abstract.Services
 
         Task<IResult> UpdateAsync(AppUser appUser);
         Task<IResult> DeleteAsync(AppUser appUser);
+        Task<IDataResult<AppUser>> GetAuthenticatedUser();
     }
 }

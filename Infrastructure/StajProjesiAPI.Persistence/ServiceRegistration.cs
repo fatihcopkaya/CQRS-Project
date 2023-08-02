@@ -18,13 +18,15 @@ namespace StajProjesiAPI.Persistence
         public static void AddPeristenceServices(this IServiceCollection services)
         {
             services.AddDbContext<StajProjesiDbContext>(options => options.UseSqlServer(Configuration.ConnectionString));
-            services.AddScoped<ICustomerRepository, CustomerRepository>();
-            services.AddScoped<ICustomerService, CustomerManager>();
             services.AddScoped<IAppUserRepository, AppUserRepository>();
             services.AddScoped<IAppUserService, AppUserManager>();
             services.AddHttpContextAccessor();
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IDocumentRepository, DocumentRepository>();
+            services.AddScoped<IProductService, ProductManager>();
+            services.AddScoped<IDocumentService, DocumentManager>();
 
-            services.AddAutoMapper(typeof(CustomerProfile));
+            services.AddAutoMapper(typeof(AppUserProfile));
         }
     }
 }

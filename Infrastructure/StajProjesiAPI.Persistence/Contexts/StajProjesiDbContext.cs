@@ -14,9 +14,10 @@ namespace StajProjesiAPI.Persistence.Contexts
         {
         }
         public DbSet<AppUser>AppUsers { get; set; }
+        public DbSet<ProductPhoto> ProductPhotos { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Document> Documents { get; set; }
+
 
 
     }

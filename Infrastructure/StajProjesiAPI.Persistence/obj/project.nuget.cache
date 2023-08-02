@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CaYSrhXJfWY6pcJ73mwdDGY+3+4uIWvpIDTr/iLXILp+Y27/g+/U1R1hCcrFVB9LgkWKIj30RIfX6+2Fujxt6g==",
+  "dgSpecHash": "L6AjXMlRQRmCNqSorbQWvh15gsnmWFPzbjuZ+yIbWCGw7kp2d0erDzbLMC+PSob2+3wGK3g+SNbO5Dd1V5d4Wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Persistence\\StajProjesiAPI.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Persistence\\StajProjesiAPI.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

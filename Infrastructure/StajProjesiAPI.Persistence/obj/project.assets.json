@@ -3256,6 +3256,7 @@
     "net6.0": [
       "AutoMapper >= 12.0.0",
       "Microsoft.AspNetCore.Authentication.Cookies >= 2.2.0",
+      "Microsoft.AspNetCore.Http >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 6.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9",
@@ -3274,11 +3275,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Persistence\\StajProjesiAPI.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Persistence\\StajProjesiAPI.Persistence.csproj",
       "projectName": "StajProjesiAPI.Persistence",
-      "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Persistence\\StajProjesiAPI.Persistence.csproj",
+      "projectPath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Persistence\\StajProjesiAPI.Persistence.csproj",
       "packagesPath": "C:\\Users\\fcopkayaoglu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3299,11 +3300,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj"
+            "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Core\\StajProjesiAPI.Application\\StajProjesiAPI.Application.csproj"
             },
-            "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\fcopkayaoglu\\source\\repos\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj"
+            "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\fcopkayaoglu\\Documents\\GitHub\\CQRS-Project\\Infrastructure\\StajProjesiAPI.Infrastructure\\StajProjesiAPI.Infrastructure.csproj"
             }
           }
         }
@@ -3323,6 +3324,10 @@
             "version": "[12.0.0, )"
           },
           "Microsoft.AspNetCore.Authentication.Cookies": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Microsoft.AspNetCore.Http": {
             "target": "Package",
             "version": "[2.2.0, )"
           },
